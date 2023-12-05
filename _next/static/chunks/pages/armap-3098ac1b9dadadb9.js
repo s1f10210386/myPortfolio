@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[151],{6224:function(n,u,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/armap",function(){return i(4410)}])},4410:function(n,u,i){"use strict";i.r(u);var _=i(5893);u.default=()=>(0,_.jsx)("div",{children:"This is ARMAPconnect."})}},function(n){n.O(0,[774,888,179],function(){return n(n.s=6224)}),_N_E=n.O()}]);
