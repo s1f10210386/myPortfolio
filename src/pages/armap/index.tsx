@@ -1,5 +1,5 @@
 const armap = () => {
-  return <div>Hello World!</div>;
+  return <div>This is ARMAPconnect.</div>;
 };
 
 export default armap;

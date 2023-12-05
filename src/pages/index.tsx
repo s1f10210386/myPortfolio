@@ -1,16 +1,16 @@
-import { useRouter } from 'next/router';
-
+import Link from 'next/link';
 import styles from './index.module.css';
 
 const Home = () => {
-  const router = useRouter();
-
-  const handleChange = async () => {
-    await router.push('/armap');
-  };
   return (
     <div className={styles.container}>
-      <button onClick={handleChange}>ARMAP</button>
+      <div>Hello! Im Hotaka Kanazawa.</div>
+      <nav>
+        <button>
+          <Link href="/armap">ARMAP-connect</Link>
+        </button>
+        <button>asucoe</button>
+      </nav>
     </div>
   );
 };
